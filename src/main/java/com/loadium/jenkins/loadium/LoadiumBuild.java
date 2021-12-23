@@ -159,7 +159,6 @@ public class LoadiumBuild implements Callable<Result, Exception> {
                 this.listener.getLogger().println(logEntry.toString());
                 logEntry.setLength(LAST_PRINT);
             }
-
             log.warn("Session key is null. So no need to close the session.");
             consoleLogger.close();
         }
